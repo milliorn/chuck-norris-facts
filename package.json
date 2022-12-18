@@ -2,15 +2,16 @@
   "name": "chuck-norris-facts",
   "version": "0.0.0",
   "private": true,
+  "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node app",
+    "dev": "nodemon app"
   },
   "dependencies": {
-    "dotenv": "^16.0.3",
     "express": "~4.16.1"
   },
   "devDependencies": {
+    "dotenv": "^16.0.3",
     "nodemon": "^2.0.20"
   }
 }
